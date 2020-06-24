@@ -1960,7 +1960,7 @@ button.main_btn.style3:hover,
 -------------------------------------------------------------- */
 @media (min-width: 768px) {
 	.masthead_clean_top .scroll_black #header_bar {background-color: #222 !important;}
-	body:not(.woocommerce-page) .site:not(.masthead_no_image_top):not(.masthead_clean_top) #header-container.header_trans .header_wrapper_bg {background-color: transparent;}
+	body:not(.woocommerce-page) .site:not(.masthead_no_image_top):not(.masthead_clean_top):not(.non_header_float) #header-container.header_trans .header_wrapper_bg {background-color: transparent;}
 	.masthead_clean_top .scroll_black .header_wrapper_bg, 
 	.archive_header_container.scroll_black .header_wrapper_bg {background-color: #222 !important;}
 	.masthead_clean_top .scroll_white .header_wrapper_bg, 
