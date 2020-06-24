@@ -1,0 +1,593 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TKM Starter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-06 11:56+0000\n"
+"PO-Revision-Date: 2020-05-06 11:57+0000\n"
+"Last-Translator: admin\n"
+"Language-Team: עִבְרִית\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#: archive.php:174 archive.php:188 archive.php:222 archive.php:266
+#: search.php:64 content-magazine-grid.php:10
+#: partials/flexible-layouts/flex-old/flexible-page-slider.php:48
+#: partials/flexible-layouts/flex-old/flexible-page-slider.php:310
+#: partials/flexible-layouts/flex-old/flexible-page-slider-slick.php:41
+#: partials/flexible-layouts/flex-old/flexible-page-slider-slick.php:111
+#: partials/flexible-layouts/flex-old/flexible-page-auto-grid.php:102
+#: partials/flexible-layouts/flex-old/flexible-page-auto-grid.php:195
+#: partials/flexible-layouts/flex-old/flexible-page-auto-grid.php:227
+#: partials/flexible-layouts/flex-old/flexible-cat-box.php:87
+#: partials/flexible-layouts/flex-old/flexible-page-grid.php:59
+#: partials/flexible-layouts/flex-old/flexible-page-grid.php:152
+#: partials/flexible-layouts/flex-old/flexible-page-grid.php:184
+#: partials/flexible-layouts/flex-old/flexible-page-grid.php:274
+#, php-format
+msgid "Link to page %s"
+msgstr "קישור לעמוד %s"
+
+#: archive.php:209 search.php:77
+#: partials/flexible-layouts/flexible-grid.php:335
+#: partials/flexible-layouts/flexible-grid.php:368
+#: partials/flexible-layouts/flex-old/flexible-page-auto-grid.php:216
+#: partials/flexible-layouts/flex-old/flexible-page-grid.php:173
+msgid "Read More"
+msgstr "המשך קריאה"
+
+#: header copy.php:107 header.php:76
+msgid "Skip to content"
+msgstr "דלג לתוכן"
+
+#: footer.php:2
+msgid "Back to top"
+msgstr "חזרה לראש העמוד"
+
+#: footer.php:16
+msgid "Edit"
+msgstr "עריכה"
+
+#: 404.php:41
+msgid "404: Page not Found"
+msgstr "404: עמוד לא נמצא"
+
+#: 404.php:72
+msgid "The page you are looking for does not exist. Return to"
+msgstr "העמוד שחיפשתם לא נמצא. חזרו ל-"
+
+#: 404.php:72
+msgid "Home Page"
+msgstr "עמוד הבית"
+
+#: 404.php:74
+msgid "Back to Home Page"
+msgstr "חזרה לעמוד הבית"
+
+#: search.php:24
+msgid "Search Results for:"
+msgstr "תוצאות חיפוש:"
+
+#: search.php:34
+msgid "Page "
+msgstr "עמוד"
+
+#: search.php:34
+msgid " of "
+msgstr "מתוך"
+
+#: no-results.php:4
+msgid "Not found"
+msgstr "לא נמצא"
+
+#: no-results.php:10
+#, php-format
+msgid "Ready to write your first post? <a href=\"%1$s\">Start here</a>."
+msgstr "מוכנים לפרסם את הפוסט הראשון שלכם? <a href=\"%1$s\">התחל כאן</a>."
+
+#: no-results.php:14
+msgid ""
+"Sorry, No results found for your search. Please try again with new key words."
+msgstr ""
+"מצטערים, לא נמצאה תוצאה עבור החיפוש שלך. אנא נסו שנית עם מילות חיפוש אחרות."
+
+#: no-results.php:23
+msgid "Sorry, the page was not found. Try a new search."
+msgstr "מצטערים אך העמוד שחיפשת לא נמצא. אנא נסו לבצע חיפוש בשדה החיפוש."
+
+#: searchform.php:17 searchform.php:18 partials/header/header-inline.php:142
+#: partials/header/header-inline.php:143 partials/footer/footer-main.php:23
+msgid "Search"
+msgstr "חיפוש"
+
+#: searchform.php:22 searchform.php:23 partials/header/header-inline.php:147
+#: partials/header/header-inline.php:148
+msgid "Search site"
+msgstr "חפשו באתר..."
+
+#: partials/branch-content.php:31
+msgid "Address"
+msgstr "כתובת"
+
+#: partials/branch-content.php:42
+msgid "Navigate with Waze"
+msgstr "נווט ב- WAZE"
+
+#: partials/branch-content.php:50
+msgid "Navigate with Google"
+msgstr "נווט בגוגל"
+
+#: partials/branch-content.php:62
+msgid "Opening Hours"
+msgstr "שעות פעילות"
+
+#: partials/branch-content.php:72
+msgid "Contant Info"
+msgstr "פרטי קשר"
+
+#: partials/branch-content.php:102
+msgid "Ask on Google"
+msgstr "שאל שאלה בגוגל"
+
+#: inc/navigation.php:18
+msgid "Ptimary Navigation"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:182
+msgid "התקן רכיבים נדרשים"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:183
+msgid "התקן רכיבים"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:184
+#, php-format
+msgid "מתקין רכיב: %s"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:185
+#, php-format
+msgid "מעדכן רכיב: %s"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:186
+msgid "משהו השתבש עם ממשק תכנות היישומים של הרכיב"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:187
+#, php-format
+msgid "ערכת עיצוב זו דורשת את הרכיב הבא: %1$s."
+msgid_plural "ערכת עיצוב זו דורשת את הרכיבים הבאים: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:192
+#, php-format
+msgid "ערכת עיצוב זו ממליצה על הרכיב הבא: %1$s."
+msgid_plural "ערכת עיצוב זו ממליצה על הרכיבים הבאים: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:197
+#, php-format
+msgid ""
+"הרכיב הבא נדרש לעדכן לגירסאתו העדכנית על מנת להבטיח תאימות מקסימלית עם ערכת "
+"עיצוב זו: %1$s."
+msgid_plural ""
+"הרכיבים הבאים נדרשים לעדכן לגירסאותיהם העדכניות על מנת להבטיח תאימות "
+"מקסימלית עם ערכת עיצוב זו: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:202
+#, php-format
+msgid "ישנו עדכון עבור: %1$s."
+msgid_plural "ישנם עדכונים זמינים עבור הרכיבים הבאים: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:207
+#, php-format
+msgid "הרכיב הנדרש הבא כבוי כעת: %1$s."
+msgid_plural "הרכיבים הנדרשים הבאים כבויים כעת: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:212
+#, php-format
+msgid "הרכיב המומלץ הבא כבוי כעת: %1$s."
+msgid_plural "הרכיבים המומלצים הבאים כבויים כעת: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:217
+msgid "החל התקנת רכיב"
+msgid_plural "החל התקנת רכיבים"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:222
+msgid "החל עדכון רכיב"
+msgid_plural "החל עדכון רכיבים"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:227
+msgid "החל הפעלת רכיב"
+msgid_plural "החל הפעלת רכיבים"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-mfn-tgmpa.php:232
+msgid "חזור למתקין הרכיבים הנדרשים"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:233
+msgid "רכיב הופעל בהצלחה."
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:234
+msgid "הרכיבים הבאים הופעלו בהצלחה:"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:235
+#, php-format
+msgid "לא בוצעה פעולה. הרכיב %1$s הותקן בעבר."
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:236
+#, php-format
+msgid ""
+"הרכיב לא הופעל. גירסא עדכנית יותר של %s נדרשת עבור ערכת עיצוב זו. נא לעדכן "
+"רכיב."
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:237
+#, php-format
+msgid "כל הרכיבים הותקנו והופעלו בהצלחה. %1$s"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:238
+msgid "מחק הודעה זו"
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:239
+msgid "ישנו רכיב אחד או יותר הנדרש או מומלץ להתקנה, הפעלה או עדכון."
+msgstr ""
+
+#: inc/class-mfn-tgmpa.php:240
+msgid "נא ליצור קשר עם מנהל האתר לעזרה."
+msgstr ""
+
+#: inc/acf-blocks-site.php:10
+msgid "Theme ACF Blocks"
+msgstr ""
+
+#: inc/acf-blocks-site.php:29
+msgid "Styled Title"
+msgstr ""
+
+#: inc/acf-blocks-site.php:41
+msgid "Product Block"
+msgstr ""
+
+#: inc/acf-blocks-site.php:66
+msgid "Styled Image"
+msgstr ""
+
+#: inc/acf-blocks-site.php:78
+msgid "Image Content"
+msgstr ""
+
+#: inc/acf-blocks-site.php:102
+msgid "Button block"
+msgstr ""
+
+#: inc/acf-blocks-site.php:125
+msgid "Custom Slider Block"
+msgstr ""
+
+#: inc/customizer.php:18 inc/customizer.php:28
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Upload logo to footer - if theme support"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Mobile Logo"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:78
+msgid "Quantity"
+msgstr "כמות"
+
+#: woocommerce/cart/mini-cart.php:92
+msgid "Remove"
+msgstr "הסר"
+
+#: woocommerce/single-product/product-image-swiper.php:54
+msgid "Sale"
+msgstr "הנחה"
+
+#: woocommerce/single-product/product-image-swiper.php:57
+msgid "New"
+msgstr "חדש"
+
+#: woocommerce/single-product/product-image-swiper.php:60
+msgid "Popular"
+msgstr "פופולרי"
+
+#: woocommerce/single-product/product-image-swiper.php:63
+msgid "Out of stock"
+msgstr "אזל המלאי"
+
+#: woocommerce/checkout/form-checkout.php:60
+msgid "View order details"
+msgstr "לחצו לצפיה בפרטי ההזמנה"
+
+#: partials/blocks/block-custom-slider.php:251
+#: partials/flexible-layouts/flex-old/flexible-client-slider.php:260
+msgid "Consult"
+msgstr "התייעצות"
+
+#: partials/blocks/block-product.php:63
+#: partials/flexible-layouts/flex-old/flexible-product.php:61
+msgid "To Category"
+msgstr "לקטגוריית"
+
+#: partials/blocks/block-product.php:64
+#: partials/flexible-layouts/flex-old/flexible-product.php:62
+msgid "More"
+msgstr "עוד"
+
+#: partials/header/header-inline.php:100 partials/header/nav.php:39
+#: partials/header/header-split.php:84 partials/header/header-split.php:106
+#: partials/header/header-split.php:132 partials/header/header-float.php:76
+msgid "Main Nav"
+msgstr ""
+
+#: partials/header/header-inline.php:176 partials/header/top-bar-right.php:50
+#: partials/header/minicart.php:32 partials/header/top-bar-left.php:50
+msgid "Shopping Cart"
+msgstr "עגלת קניות"
+
+#: partials/header/branding-customizer.php:10
+msgid "Logo"
+msgstr "לוגו"
+
+#: partials/header/top-bar.php:23
+msgid "Start a conversation"
+msgstr "צ’אט עם נציג"
+
+#: partials/header/nav-side.php:23 inc/functions/theme-head.php:69
+msgid "Primary menu"
+msgstr ""
+
+#: partials/header/category_header_top copy.php:24
+#: partials/header/shop_header_top.php:39
+msgid "Page Number"
+msgstr "עמוד מספר"
+
+#: partials/flexible-layouts/flexible-grid.php:357
+msgid "More info"
+msgstr "מידע נוסף"
+
+#: partials/flexible-layouts/flexible-grid.php:440
+msgid "Learn More"
+msgstr "גלו עוד"
+
+#: inc/functions/theme-functions.php:427
+msgid "Post navigation"
+msgstr "ניווט פוסטים"
+
+#: inc/functions/theme-functions.php:431 inc/functions/template-tags.php:110
+msgctxt "Previous Page"
+msgid "&larr;"
+msgstr ""
+
+#: inc/functions/theme-functions.php:432 inc/functions/template-tags.php:111
+msgctxt "Next Page"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/functions/theme-functions.php:437
+msgid "<span class=\"meta-nav\">&larr;</span> Previous Pages"
+msgstr "<span class=\"meta-nav\">&larr;</span> עמודים קודמים"
+
+#: inc/functions/theme-functions.php:441
+msgid "New Pages <span class=\"meta-nav\">&rarr;</span>"
+msgstr "עמודים חדשים <span class=\"meta-nav\">&rarr;</span>"
+
+#. %s: Name of current post
+#: inc/functions/theme-functions.php:652
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "המשך קריאה %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions/template-tags.php:10
+#, php-format
+msgid ""
+"Posted on Date <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
+"class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a>"
+msgstr ""
+"פורסם בתאריך <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
+"class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a>"
+
+#: inc/functions/template-tags.php:26
+#, php-format
+msgid ""
+"Posted on Date <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
+"class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span "
+"class=\"byline\"> By <span class=\"author vcard\"><a class=\"url fn n\" "
+"href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+"פורסם בתאריך <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
+"class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span "
+"class=\"byline\"> על ידי <span class=\"author vcard\"><a class=\"url fn n\" "
+"href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/functions/template-tags.php:32
+#, php-format
+msgid "View all posts by %s"
+msgstr "הצג את כל הפוסטים של %s"
+
+#: inc/functions/template-tags.php:106
+msgid "Page Navigation"
+msgstr "ניווט עמוד"
+
+#: inc/functions/template-tags.php:116
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> הקודם"
+
+#: inc/functions/template-tags.php:120
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "הבא <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions/theme-head.php:70
+msgid "Footer nav 1"
+msgstr ""
+
+#: inc/functions/theme-head.php:71
+msgid "Footer nav 2"
+msgstr ""
+
+#: inc/functions/theme-head.php:72
+msgid "Footer nav 3"
+msgstr ""
+
+#: inc/functions/theme-head.php:73
+msgid "Top panel nav"
+msgstr ""
+
+#: inc/functions/theme-head.php:74
+msgid "Primary split right"
+msgstr ""
+
+#: inc/functions/theme-head.php:75
+msgid "Primary split left"
+msgstr ""
+
+#: inc/functions/theme-head.php:107
+msgid "small"
+msgstr ""
+
+#: inc/functions/theme-head.php:108
+msgid "S"
+msgstr ""
+
+#: inc/functions/theme-head.php:113
+msgid "regular"
+msgstr ""
+
+#: inc/functions/theme-head.php:114
+msgid "M"
+msgstr ""
+
+#: inc/functions/theme-head.php:119
+msgid "large"
+msgstr ""
+
+#: inc/functions/theme-head.php:120
+msgid "L"
+msgstr ""
+
+#: inc/functions/theme-head.php:132
+msgid "Blue"
+msgstr ""
+
+#: inc/functions/theme-head.php:137
+msgid "Green"
+msgstr ""
+
+#: inc/functions/theme-head.php:142
+msgid "Orange"
+msgstr ""
+
+#: inc/functions/theme-head.php:147
+msgid "Red"
+msgstr ""
+
+#: partials/flexible-layouts/flex-old/flexible-project.php:55
+msgid "View Project"
+msgstr "צפה בפרוייקט"
+
+#: partials/flexible-layouts/flex-old/flexible-project.php:68
+msgid "All Projects"
+msgstr "לכל הפרוייקטים"
+
+#: partials/flexible-layouts/flex-old/flexible-qa-accordion.php:68
+#: partials/flexible-layouts/flex-old/flexible-qa-accordion.php:96
+#: partials/flexible-layouts/flex-old/flexible-qa-slider.php:57
+msgid "Answer"
+msgstr "תשובה"
+
+#: partials/flexible-layouts/flex-old/flexible-qa-accordion.php:89
+#: partials/flexible-layouts/flex-old/flexible-qa-slider.php:51
+msgid "Question"
+msgstr "שאלה"
+
+#: partials/flexible-layouts/flex-old/flexible-page-slider.php:228
+#: partials/flexible-layouts/flex-old/flexible-page-slider.php:401
+msgid "Read more"
+msgstr "קרא עוד"
+
+#: partials/flexible-layouts/flex-old/flexible-gallery-grid.php:124
+#: partials/flexible-layouts/flex-old/flexible-page-grid.php:374
+msgid "End content"
+msgstr "עריכת עמוד"
+
+#: partials/flexible-layouts/flex-old/flexible-gallery-grid.php:125
+#: partials/flexible-layouts/flex-old/flexible-page-grid.php:375
+msgid "No more to load"
+msgstr "אין מה לטעון יותר"
+
+#: partials/flexible-layouts/flex-old/flexible-gallery-grid.php:128
+#: partials/flexible-layouts/flex-old/flexible-gallery-grid.php:137
+#: partials/flexible-layouts/flex-old/flexible-gallery-grid-or.php:77
+#: partials/flexible-layouts/flex-old/flexible-page-grid.php:378
+msgid "Show more"
+msgstr "הצג עוד"
+
+#: partials/flexible-layouts/flex-old/flexible-gallery-grid.php:131
+msgid "Load more"
+msgstr "טען פחות"
+
+#: partials/flexible-layouts/flex-old/flexible-gallery-grid.php:141
+#: partials/flexible-layouts/flex-old/flexible-gallery-grid-or.php:81
+msgid "Show less"
+msgstr "הצג פחות"
+
+#: partials/flexible-layouts/flex-old/flexible-page-slider-slick.php:159
+msgid "Of"
+msgstr "של"
+
+#. Name of the theme
+msgid "tkmnineteen"
+msgstr ""
+
+#. Description of the theme
+msgid "tkmnineteen a WordPress theme from Scratch - TKM Starter V2"
+msgstr ""
+
+#. URI of the theme
+msgid ""
+"https://www.tkmedia.co.il/%D7%94%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99%D7%9D-"
+"%D7%A9%D7%9C%D7%A0%D7%95/%D7%91%D7%A0%D7%99%D7%99%D7%AA-"
+"%D7%90%D7%AA%D7%A8%D7%99-%D7%95%D7%95%D7%A8%D7%93%D7%A4%D7%A8%D7%A1-"
+"wordpress/"
+msgstr ""
+
+#. Author of the theme
+msgid "Tal Katz"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.tkmedia.co.il"
+msgstr ""
