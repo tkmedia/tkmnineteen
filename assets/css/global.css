@@ -1030,7 +1030,8 @@ body:not(.woocommerce-page) .site:not(.masthead_no_image_top) #header-container.
 .site.masthead_no_image_top #header-container {background-color: inherit !important;}
  */
 @media (min-width: 768px) {
-	body:not(.woocommerce-page) .site:not(.masthead_no_image_top):not(.masthead_clean_top) #header-container.header_trans {background-color: transparent !important;}
+	body:not(.woocommerce-page) .site.masthead_manual_slider #header-container.header_trans.header_float, 
+	body:not(.woocommerce-page) .site.masthead_full_slider #header-container.header_trans.header_float {background-color: transparent !important;}
 }
 @media (max-width: 767px) {
 	.header-inline .header_wrap {padding: 0 8px;}
