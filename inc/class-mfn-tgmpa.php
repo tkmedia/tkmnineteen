@@ -20,8 +20,8 @@ if( ! class_exists( 'TGM_Plugin_Activation' ) ){
 				'required'  => false,
 			),			
 			array(
-				'name'      => 'ACF Flexible Content Modal',
-				'slug'      => 'acf-flexible-content-modal',
+				'name'      => 'ACF Flexible Layouts Manager',
+				'slug'      => 'acf-flexible-layouts-manager',
 				'required'  => false,
 			),			
 			array(
@@ -30,18 +30,18 @@ if( ! class_exists( 'TGM_Plugin_Activation' ) ){
 				'required'  => false,
 			),
 			array(
-				'name'      => 'Advanced Custom Fields: Font Awesome',
-				'slug'      => 'advanced-custom-fields-font-awesome',
-				'required'  => false,
-			),
-			array(
 				'name'      => 'Advanced Custom Fields: Extended',
 				'slug'      => 'acf-extended',
 				'required'  => false,
 			),
 			array(
-				'name'      => 'ACF Flexible Layouts Manager',
-				'slug'      => 'acf-flexible-layouts-manager',
+				'name'      => 'Advanced Custom Fields: Font Awesome',
+				'slug'      => 'advanced-custom-fields-font-awesome',
+				'required'  => false,
+			),
+			array(
+				'name'      => 'Advanced Custom Fields: Table Field',
+				'slug'      => 'advanced-custom-fields-table-field',
 				'required'  => false,
 			),
 			array(
@@ -75,6 +75,11 @@ if( ! class_exists( 'TGM_Plugin_Activation' ) ){
 				'required'  => false,
 			),
 			array(
+				'name'      => 'Font Awesome',
+				'slug'      => 'font-awesome',
+				'required'  => false,
+			),
+			array(
 				'name'      => 'Duplicate Posts',
 				'slug'      => 'duplicate-post',
 				'required'  => false,
@@ -85,28 +90,8 @@ if( ! class_exists( 'TGM_Plugin_Activation' ) ){
 				'required'  => false,
 			),
 			array(
-				'name'      => 'Better Search Replace',
-				'slug'      => 'better-search-replace',
-				'required'  => false,
-			),
-			array(
-				'name'      => 'Broken Link Checker',
-				'slug'      => 'broken-link-checker',
-				'required'  => false,
-			),						
-			array(
-				'name'      => 'Default featured image',
-				'slug'      => 'default-featured-image',
-				'required'  => false,
-			),
-			array(
 				'name'      => 'Query Monitor',
 				'slug'      => 'query-monitor',
-				'required'  => false,
-			),
-			array(
-				'name'      => 'Rewrite Rules Inspecto',
-				'slug'      => 'rewrite-rules-inspector',
 				'required'  => false,
 			),
 			array(
@@ -115,28 +100,8 @@ if( ! class_exists( 'TGM_Plugin_Activation' ) ){
 				'required'  => false,
 			),										
 			array(
-				'name'      => 'Simply Show IDs',
-				'slug'      => 'simply-show-ids',
-				'required'  => false,
-			),
-			array(
 				'name'      => 'Theme Check',
 				'slug'      => 'theme-check',
-				'required'  => false,
-			),
-			array(
-				'name'      => 'Reveal IDs',
-				'slug'      => 'reveal-ids-for-wp-admin-25',
-				'required'  => false,
-			),
-			array(
-				'name'      => 'ACF Admin Flexible Content Collapse',
-				'slug'      => 'acf-admin-flexible-content-collapse',
-				'required'  => false,
-			),
-			array(
-				'name'      => 'ShortPixel Image Optimizer',
-				'slug'      => 'shortpixel-image-optimiser',
 				'required'  => false,
 			),
 			array(
@@ -149,6 +114,17 @@ if( ! class_exists( 'TGM_Plugin_Activation' ) ){
 				'slug'               => 'advanced-custom-fields-pro',
 				'source'             => get_template_directory_uri() . '/lib/plugins/advanced-custom-fields-pro.zip',
 				'required'           => true,
+				'version'            => '',
+				'force_activation'   => false,
+				'force_deactivation' => false,
+				'external_url'       => '',
+				'is_callable'        => '',
+			),
+			array(
+				'name'               => 'WP Pusher',
+				'slug'               => 'wppusher',
+				'source'             => get_template_directory_uri() . '/lib/plugins/wppusher.zip',
+				'required'           => false,
 				'version'            => '',
 				'force_activation'   => false,
 				'force_deactivation' => false,
