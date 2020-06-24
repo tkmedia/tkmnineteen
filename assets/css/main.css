@@ -118,7 +118,9 @@ transition:         all 0.3s;
 /* MASTHEAD */
 /* Mast Head - Image slider */
 #scroll_down {display: block;}
-.front-page .header_float #masthead {padding-top: 0 !important;}
+.front-page .header_float #masthead, 
+.masthead_manual_slider.header_float #masthead, 
+.masthead_full_slider.header_float #masthead {padding-top: 0 !important;}
 .home_main_slider_item {max-height: 1000px;}
 .masthead_img_slider h1.entry-title.masthead_content_title, 
 .masthead_img_slider .main_slider_subtitle, 
