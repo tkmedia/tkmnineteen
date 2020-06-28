@@ -904,7 +904,7 @@ header#header-container {box-shadow: 0 0px 15px 0px rgba(0,0,0,0.3);z-index: 999
 header.full_row_box {background: rgba(0, 0, 0, 0.75) !important;}
 .site #header-container {background-color: #fff;}
 .site #header-container.header_trans {background: transparent;background-color: transparent;}
-.site.masthead_manual_slider #header-container.header_trans {background: transparent !important;background-color: transparent !important;}
+.site.masthead_manual_slider #header-container.header_trans, .site.masthead_full_slider #header-container.header_trans {background: transparent !important;background-color: transparent !important;}
 
 /* Header LOGO general */
 .header-logo.desktop_logo {width: 100%;height: 100%;margin: 0;}
