@@ -31,6 +31,7 @@ while( have_rows('mhfs') ): the_row();
 	$slider_stitleco = get_sub_field('stico');
 	$slider_titlesz = get_sub_field('titsz');
 	$slider_stitlesz = get_sub_field('stsz');
+	$slider_titype = get_sub_field('tity');
 ?>
 <div id="home_masthead" class="home_masthead_main masthead_img_slider" itemprop="text">	
 	<div class="home_masthead intro-section">
@@ -136,13 +137,14 @@ while( have_rows('mhfs') ): the_row();
 						
 						<div class="main_slider_content content_<?php echo $slider_cona; ?>">
 						<div class="main_slider_inner_wrap wrap"><div class="main_slider_inner<?php if( $slider_subtitle ) { ?> has_subtitle<?php } ?>">
-							<h1 class="entry-title masthead_content_title main_slider_title <?php if ( !is_front_page() ) { ?>masthead_content_title_single<?php } ?>" style="color:<?php echo $slider_titleco; ?>;font-size:<?php echo $slider_titlesz; ?>px;" itemprop="headline">
+							
+							<<?php echo $slider_titype; ?> class="entry-title masthead_content_title main_slider_title <?php if ( !is_front_page() ) { ?>masthead_content_title_single<?php } ?>" style="color:<?php echo $slider_titleco; ?>;font-size:<?php echo $slider_titlesz; ?>px;" itemprop="headline">
 								<?php if( $slider_title ) { ?>
 									<?php echo $slider_title; ?>
 								<?php } else { ?>
 									<?php the_title(); ?>
 								<?php } ?>
-							</h1>
+							</<?php echo $slider_titype; ?>>
 							<?php if ( !is_front_page() ) { ?>
 							<div class="yoast_breadcrumb breadcrumb_content_in_slider">
 								<div class="yoast_breadcrumb_wrap">
