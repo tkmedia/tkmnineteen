@@ -188,7 +188,7 @@ while( have_rows('mhfs') ): the_row();
 									</div>
 								</div>
 								<?php if( $slider_btn_type == 'form' ) { ?>
-								<div style="display: none;max-width: 1400px;" id="popop-mmh" class="button-popop-form">
+								<div style="display: none;max-width: 900px;" id="popop-mmh" class="button-popop-form">
 									<div class="button-popop-form-wrap">
 										<div class="button-popop-form-row">
 											<div class="button-popop-form-col form-image col-xs-12">
