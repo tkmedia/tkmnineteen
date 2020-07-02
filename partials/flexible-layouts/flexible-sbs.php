@@ -47,7 +47,7 @@ $sbs_fixed_bg = get_sub_field('sbs_fxbg');
 				<h2 class="section_title section_flex_title title_<?php echo $sidebyside_title_align; ?>" style="color:<?php echo $sidebyside_title_color; ?>;font-size:<?php echo $sidebyside_title_size; ?>px;"><?php echo $sidebyside_title; ?></h2>
 				<?php } ?>
 				<?php if( $sidebyside_subtitle ) { ?>
-				<div class="section_subtitle title_<?php echo $sidebyside_title_align; ?>" itemprop="headline" style="text-align:<?php echo $sidebyside_title_align; ?>;color:<?php echo $sidebyside_subtitle_color; ?>;font-size:<?php echo $sidebyside_subtitle_size; ?>px;"><?php echo $sidebyside_subtitle; ?></div>
+				<div class="section_subtitle title_<?php echo $sidebyside_title_align; ?>" itemprop="headline" style="color:<?php echo $sidebyside_subtitle_color; ?>;font-size:<?php echo $sidebyside_subtitle_size; ?>px;"><?php echo $sidebyside_subtitle; ?></div>
 				<?php } ?>
 			</div>
 			<?php } ?>
