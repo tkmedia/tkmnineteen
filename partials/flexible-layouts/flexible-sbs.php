@@ -17,6 +17,7 @@ $sidebyside_title_color = get_sub_field('sbs_tcl');
 $sidebyside_subtitle_size = get_sub_field('sbs_stsz');
 $sidebyside_subtitle_color = get_sub_field('sbs_stcl');
 $sidebyside_tstyle = get_sub_field('sbs_tsty');
+$sidebyside_type = get_sub_field('sbs_tty');
 $sidebyside_title_align = get_sub_field('sbs_tal');
 $sidebyside_cols = get_sub_field('sbs_cols');
 $sidebyside_align = get_sub_field('sbs_ali');
@@ -44,7 +45,7 @@ $sbs_fixed_bg = get_sub_field('sbs_fxbg');
 			<?php if( $sidebyside_title || $sidebyside_subtitle ) { ?>
 			<div class="media_content_title_wrap title_wrap_<?php echo $sidebyside_title_align; ?> style_<?php echo $sidebyside_tstyle; ?>">
 				<?php if( $sidebyside_title ) { ?>
-				<h2 class="section_title section_flex_title title_<?php echo $sidebyside_title_align; ?>" style="color:<?php echo $sidebyside_title_color; ?>;font-size:<?php echo $sidebyside_title_size; ?>px;"><?php echo $sidebyside_title; ?></h2>
+				<<?php echo $sidebyside_type; ?> class="section_title section_flex_title title_<?php echo $sidebyside_title_align; ?>" style="color:<?php echo $sidebyside_title_color; ?>;font-size:<?php echo $sidebyside_title_size; ?>px;"><?php echo $sidebyside_title; ?></<?php echo $sidebyside_type; ?>>
 				<?php } ?>
 				<?php if( $sidebyside_subtitle ) { ?>
 				<div class="section_subtitle title_<?php echo $sidebyside_title_align; ?>" itemprop="headline" style="color:<?php echo $sidebyside_subtitle_color; ?>;font-size:<?php echo $sidebyside_subtitle_size; ?>px;"><?php echo $sidebyside_subtitle; ?></div>
