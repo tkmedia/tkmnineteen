@@ -2167,7 +2167,7 @@ body.rtl .gform_wrapper button, button.button.send-form, html[dir=rtl] .gform_wr
 #contact_form_popup.white-popup, #qa_form_popup, #header_form_popup {max-width: 750px;}
 .wpcf7 input, .wpcf7 select, .wpcf7 textarea {border: none;height: 50px;background: #efefee;}
 .contact-title-first {text-align: center;line-height: 1.5;font-size: 26px;padding-bottom: 20px;}
-input.wpcf7-form-control.wpcf7-submit {padding: 8px 25px;font-size: 20px;margin-top: 20px;cursor: pointer;margin: 0;margin-bottom: 15px;border: none;background: #000;background-color: #000;color: #fff;font-weight: bold;}
+input.wpcf7-form-control.wpcf7-submit {padding: 8px 25px;font-size: 20px;margin-top: 20px;cursor: pointer;margin: 0;margin-bottom: 0px;border: none;background: #000;background-color: #000;color: #fff;font-weight: bold;}
 button.text.contact_field.button {background: none;border: none;padding: 0;}
 input.wpcf7-form-control.wpcf7-submit:hover {opacity: 0.7;}
 
