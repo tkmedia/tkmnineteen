@@ -2298,6 +2298,34 @@
                             "placeholder": ""
                         },
                         {
+                            "key": "field_5efe2648b792c",
+                            "label": "Title Type",
+                            "name": "sbs_tty",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "acfe_permissions": "",
+                            "choices": {
+                                "h2": "h2",
+                                "h3": "h3",
+                                "h1": "h1",
+                                "div": "div"
+                            },
+                            "default_value": false,
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
                             "key": "field_5dfb288a5508f",
                             "label": "Columns in row",
                             "name": "sbs_cols",
@@ -11828,5 +11856,5 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1591280190
+    "modified": 1593714421
 }
