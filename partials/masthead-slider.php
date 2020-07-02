@@ -25,7 +25,7 @@ $home_masthead_content_title = get_field('home_masthead_content_title','option')
 
 <style>
 	.top-slider-bg.top-slider-bg-multiple {background:<?php echo $masthead_background_color; ?>;}
-	#home_masthead h1.entry-title.masthead_content_title {font-size:<?php echo $home_masthead_content_title; ?>px;}
+	#home_masthead .entry-title.masthead_content_title {font-size:<?php echo $home_masthead_content_title; ?>px;}
 	@media (min-width: 992px) {
 		.top-video-container, 
 		#top-slider.top-video-container-wrap {height:<?php echo $slider_height; ?>vh !important;}
