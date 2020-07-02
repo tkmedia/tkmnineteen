@@ -731,7 +731,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "20",
+                        "width": "40",
                         "class": "",
                         "id": ""
                     },
@@ -753,7 +753,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "25",
+                        "width": "40",
                         "class": "",
                         "id": ""
                     },
@@ -768,6 +768,35 @@
                     "acfe_validate": ""
                 },
                 {
+                    "key": "field_5efe284fb60ef",
+                    "label": "Title Type",
+                    "name": "tity",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "20",
+                        "class": "",
+                        "id": ""
+                    },
+                    "acfe_permissions": "",
+                    "choices": {
+                        "h1": "h1",
+                        "h2": "h2",
+                        "div": "div"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "acfe_settings": "",
+                    "acfe_validate": "",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
                     "key": "field_5ebd95c9e4248",
                     "label": "Content align",
                     "name": "cona",
@@ -776,7 +805,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "10",
+                        "width": "20",
                         "class": "",
                         "id": ""
                     },
@@ -805,7 +834,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "10",
+                        "width": "20",
                         "class": "",
                         "id": ""
                     },
@@ -821,8 +850,7 @@
                     "return_format": "value",
                     "acfe_settings": "",
                     "acfe_validate": "",
-                    "save_other_choice": 0,
-                    "acfe_form": true
+                    "save_other_choice": 0
                 },
                 {
                     "key": "field_5e6b52c9747d0",
@@ -833,7 +861,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "10",
+                        "width": "20",
                         "class": "",
                         "id": ""
                     },
@@ -846,8 +874,7 @@
                     "max": 100,
                     "step": 1,
                     "acfe_settings": "",
-                    "acfe_validate": "",
-                    "acfe_form": true
+                    "acfe_validate": ""
                 },
                 {
                     "key": "field_5e678b29c76b7",
@@ -858,7 +885,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "10",
+                        "width": "20",
                         "class": "",
                         "id": ""
                     },
@@ -869,8 +896,7 @@
                     "acfe_settings": "",
                     "acfe_validate": "",
                     "ui_on_text": "",
-                    "ui_off_text": "",
-                    "acfe_form": true
+                    "ui_off_text": ""
                 },
                 {
                     "key": "field_5e6e3094e266d",
@@ -881,7 +907,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "10",
+                        "width": "20",
                         "class": "",
                         "id": ""
                     },
@@ -892,8 +918,7 @@
                     "acfe_settings": "",
                     "acfe_validate": "",
                     "ui_on_text": "",
-                    "ui_off_text": "",
-                    "acfe_form": true
+                    "ui_off_text": ""
                 },
                 {
                     "key": "field_5e4135062ce72",
@@ -1247,7 +1272,8 @@
                     "append": "",
                     "maxlength": "",
                     "acfe_settings": "",
-                    "acfe_validate": ""
+                    "acfe_validate": "",
+                    "acfe_form": true
                 },
                 {
                     "key": "field_5e41379d2ce78",
@@ -1467,5 +1493,5 @@
     "acfe_form": 1,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1589483172
+    "modified": 1593714965
 }
