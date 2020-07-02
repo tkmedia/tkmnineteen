@@ -738,7 +738,7 @@ acf_add_local_field_group(array(
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
-						'width' => '20',
+						'width' => '40',
 						'class' => '',
 						'id' => '',
 					),
@@ -760,7 +760,7 @@ acf_add_local_field_group(array(
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
-						'width' => '25',
+						'width' => '40',
 						'class' => '',
 						'id' => '',
 					),
@@ -775,6 +775,35 @@ acf_add_local_field_group(array(
 					'acfe_validate' => '',
 				),
 				array(
+					'key' => 'field_5efe284fb60ef',
+					'label' => 'Title Type',
+					'name' => 'tity',
+					'type' => 'select',
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => 0,
+					'wrapper' => array(
+						'width' => '20',
+						'class' => '',
+						'id' => '',
+					),
+					'acfe_permissions' => '',
+					'choices' => array(
+						'h1' => 'h1',
+						'h2' => 'h2',
+						'div' => 'div',
+					),
+					'default_value' => false,
+					'allow_null' => 0,
+					'multiple' => 0,
+					'ui' => 0,
+					'return_format' => 'value',
+					'acfe_settings' => '',
+					'acfe_validate' => '',
+					'ajax' => 0,
+					'placeholder' => '',
+				),
+				array(
 					'key' => 'field_5ebd95c9e4248',
 					'label' => 'Content align',
 					'name' => 'cona',
@@ -783,7 +812,7 @@ acf_add_local_field_group(array(
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
-						'width' => '10',
+						'width' => '20',
 						'class' => '',
 						'id' => '',
 					),
@@ -812,7 +841,7 @@ acf_add_local_field_group(array(
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
-						'width' => '10',
+						'width' => '20',
 						'class' => '',
 						'id' => '',
 					),
@@ -829,7 +858,6 @@ acf_add_local_field_group(array(
 					'acfe_settings' => '',
 					'acfe_validate' => '',
 					'save_other_choice' => 0,
-					'acfe_form' => true,
 				),
 				array(
 					'key' => 'field_5e6b52c9747d0',
@@ -840,7 +868,7 @@ acf_add_local_field_group(array(
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
-						'width' => '10',
+						'width' => '20',
 						'class' => '',
 						'id' => '',
 					),
@@ -854,7 +882,6 @@ acf_add_local_field_group(array(
 					'step' => 1,
 					'acfe_settings' => '',
 					'acfe_validate' => '',
-					'acfe_form' => true,
 				),
 				array(
 					'key' => 'field_5e678b29c76b7',
@@ -865,7 +892,7 @@ acf_add_local_field_group(array(
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
-						'width' => '10',
+						'width' => '20',
 						'class' => '',
 						'id' => '',
 					),
@@ -877,7 +904,6 @@ acf_add_local_field_group(array(
 					'acfe_validate' => '',
 					'ui_on_text' => '',
 					'ui_off_text' => '',
-					'acfe_form' => true,
 				),
 				array(
 					'key' => 'field_5e6e3094e266d',
@@ -888,7 +914,7 @@ acf_add_local_field_group(array(
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
-						'width' => '10',
+						'width' => '20',
 						'class' => '',
 						'id' => '',
 					),
@@ -900,7 +926,6 @@ acf_add_local_field_group(array(
 					'acfe_validate' => '',
 					'ui_on_text' => '',
 					'ui_off_text' => '',
-					'acfe_form' => true,
 				),
 				array(
 					'key' => 'field_5e4135062ce72',
@@ -1256,6 +1281,7 @@ acf_add_local_field_group(array(
 					'maxlength' => '',
 					'acfe_settings' => '',
 					'acfe_validate' => '',
+					'acfe_form' => true,
 				),
 				array(
 					'key' => 'field_5e41379d2ce78',
@@ -1475,7 +1501,7 @@ acf_add_local_field_group(array(
 	'acfe_form' => 1,
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1589483172,
+	'modified' => 1593714965,
 ));
 
 endif;
