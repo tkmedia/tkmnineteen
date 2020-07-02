@@ -543,13 +543,16 @@ button.section_readmore_link.button_icon_right .flex_main_button_img {padding-le
 .section_btn.sbs_btn.section_readmore_link_wrap.btn_end {text-align: left;text-align: end;}
 .section_btn.sbs_btn.section_readmore_link_wrap.btn_center {text-align: center;}
 .media_content_item.full_content {padding: 15px;height: 100%;}
-.flex_media_content .section_title.section_flex_title.title_start, 
+.flex_media_content .section_title.section_flex_title.title_start,
+.flex_media_content .section_subtitle.title_start, 
 .media_content_item.full_content .full_content_title.title_start, 
 .media_content_item.full_content .full_content_subtitle.title_start {text-align: right;text-align: start;}
 .flex_media_content .section_title.section_flex_title.title_end,
+.flex_media_content .section_subtitle.title_end,
 .media_content_item.full_content .full_content_title.title_end, 
 .media_content_item.full_content .full_content_subtitle.title_end {text-align: left;text-align: end;}
 .flex_media_content .section_title.section_flex_title.title_center,
+.flex_media_content .section_subtitle.title_center,
 .media_content_item.full_content .full_content_title.title_center, 
 .media_content_item.full_content .full_content_subtitle.title_center {text-align: center;}
 .media_content_item.full_content .full_content_subtitle {font-size: 22px;}
