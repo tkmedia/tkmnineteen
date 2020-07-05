@@ -38,8 +38,8 @@ if ($tble_rows) {
 				$tblmc_my = $tble_row['tblmc_my'];
 				
 				if ( defined('YITH_YWRAQ_PREMIUM') && function_exists('YITH_YWRAQ_Frontend') && $mcart_po == 'mc_tb' ) {
-				?>	
-
+				?>
+				<style>.ywraq-quote-icon-icon_quote:before {color:<?php echo $tblmc_co; ?>;font-size:<?php echo $tblmc_sz; ?>px;}</style>	
 				<div class="top_bar_left_col top_bar_minicart">
 					<?php if ($tblmc_se) { ?>
 					<div class="header-minicart-search">
