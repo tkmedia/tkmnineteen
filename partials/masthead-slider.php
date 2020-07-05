@@ -20,7 +20,6 @@ $page_top_slider_content = get_post_meta( get_the_ID(), 'page_top_slider_content
 $masthead_background_color = get_field('masthead_background_color');
 $intro_bg_color = get_post_meta( get_the_ID(), 'masthead_intro_bg_color', true );
 $home_masthead_content_title = get_field('home_masthead_content_title','option');
-
 ?>
 
 <style>
