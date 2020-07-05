@@ -694,6 +694,8 @@ button.section_readmore_link.button_icon_right .flex_main_button_img {padding-le
 
 /* Flex Form */
 .flex_form.split_form .mh_contact {overflow: hidden;}
+.flex_form.split_form .form_sidetext {font-size: 19px;}
+.flex_form.split_form .form_sidesub {font-size: 22px;}
 .flex_form.flexible_page_element.split_form {background: #f4f4f4;box-shadow:inset 0px 0px 20px 10px rgba(0,0,0,0.1);}
 .flex_form.split_form .mh_contact_col_right {position: relative;}
 .flex_form.split_form .mh_contact_wrap .mh_contact_col_right:before {content: '';position: absolute;top: 0;left: -70px;right: 0; width: 100%;height: 100%;background: #2a2734;-webkit-transform-origin: 100% 0;-ms-transform-origin: 100% 0;transform-origin: 100% 0;-webkit-transform: skew(-30deg);-ms-transform: skew(-30deg);transform: skew(-30deg);}
