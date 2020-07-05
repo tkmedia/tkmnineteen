@@ -11,7 +11,7 @@ input[type=checkbox]:checked::before {color:#fff;}
 /* HEADER */
 header#header-container {box-shadow: none;}
 .site:not(.header-side) #header_top_bar {min-height: 60px;font-size: 16px;color: #fff;}
-.site:not(.header-side) #header_top_bar * {color: #fff;}
+.site:not(.header-side) #header_top_bar *:not(.widget_ywraq_mini_list_quote) {color: #fff;}
 .site:not(.header-side) #header_top_bar span.tbfirst1 {font-weight: bold;}
 .site:not(.header-side) #header_top_bar span.tbfirst2 {color: #ccbd99 !important;padding: 0 5px;}
 .site:not(.header-side) #header_top_bar span.tbfirst3 {font-size: 16px;}
