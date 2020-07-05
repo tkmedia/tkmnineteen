@@ -36,8 +36,59 @@ if ($tble_rows) {
 				$tblmc_sz = $tble_row['tblmc_sz'];
 				$tblmc_se = $tble_row['tblmc_se'];
 				$tblmc_my = $tble_row['tblmc_my'];
-				if ( class_exists( 'Woocommerce' ) && $mcart_po == 'mc_tb' ) :
-				?>
+				
+				if ( defined('YITH_YWRAQ_PREMIUM') && function_exists('YITH_YWRAQ_Frontend') && $mcart_po == 'mc_tb' ) {
+					
+					
+					
+
+				<div class="top_bar_left_col top_bar_minicart">
+					<?php if ($tblmc_se) { ?>
+					<div class="header-minicart-search">
+						<a class="" data-fancybox data-src="#header-minicart-search" href="javascript:;">
+						<i class="fal fa-search" style="color:<?php echo $tblmc_co; ?>;font-size:<?php echo $tblmc_sz; ?>px;"></i>
+						</a>
+						<div id="header-minicart-search" class="header_search_block" style="display: none;max-width: 700px;">
+							<div class="search-form-container searchform">
+								<form role="search" id="search-form" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+									<div class="search-table">	
+										<div class="search-button">
+									        <button type="submit" id="search-submit">
+									        <span class="screen-reader-text"><?php _e('Search', 'tkmnineteen'); ?></span>
+									        <?php _e('Search', 'tkmnineteen'); ?>
+									        </button>
+										</div>
+										<div class="search-field">
+											<label class="screen-reader-text" for="search-input"><?php _e('Search site', 'tkmnineteen'); ?></label>
+									        <input type="search" placeholder="<?php _e('Search site', 'tkmnineteen'); ?>" name="s" id="search-input" value="<?php echo esc_attr( get_search_query() ); ?>" />
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<?php } ?>
+					<?php if ($tblmc_my) { ?>
+					<div class="header-minicart-my">
+						<a class="" href="/my-account/">
+						<i class="fal fa-user-alt" style="color:<?php echo $tblmc_sz; ?>;font-size:<?php echo $tblmc_co; ?>px;"></i>
+						</a>
+					</div>
+					<?php } ?>
+					<div class="header-minicart">
+						<div class="shopping_cart_content">
+							<div id="mini-cart" class="mini-cart">
+								<div class="cart-head">
+									<i class="fal fa-shopping-bag" style="color:<?php echo $tblmc_co; ?>;font-size:<?php echo $tblmc_sz; ?>px;"></i>
+									<?php echo do_shortcode('[yith_ywraq_mini_widget_quote]'); ?>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<?php } elseif ( class_exists( 'Woocommerce' ) && $mcart_po == 'mc_tb' ) { ?>
 				<div class="top_bar_left_col top_bar_minicart">
 					<?php if ($tblmc_se) { ?>
 					<div class="header-minicart-search">
@@ -95,7 +146,7 @@ if ($tble_rows) {
 						</div>
 					</div>
 				</div>
-				<?php endif;
+				<?php }
 				break;
 
 				case 'hc_tblnav':
