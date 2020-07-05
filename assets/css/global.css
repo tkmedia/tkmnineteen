@@ -1024,6 +1024,9 @@ header.full_row_box {background: rgba(0, 0, 0, 0.75) !important;}
 .ywraq-quote-icon-icon_quote:before {font-family: 'Font Awesome 5 Pro';content: "\f290" !important;font-weight: 300;}
 .widget_ywraq_mini_list_quote .raq-info {margin: 0 !important;padding: 0 !important;border: none !important;color: inherit !important;font-size: inherit !important;}
 .widget_ywraq_mini_list_quote .raq-items-number {position: absolute;text-align: center;display: inline-block;border-radius: 20px;overflow: hidden;right: -15px;top: -10px;font-size: 10px !important;width: 20px;height: 20px;line-height: 21px !important;color: #ffffff !important;background-color: #ff5b5b !important;font-weight: 400 !important;}
+.yith_ywraq_add_item_product_message {line-height: 1;}
+.yith_ywraq_add_item_browse_message {line-height: 1;text-decoration: underline;}
+.yith-ywraq-add-to-quote img {width: auto;height: auto;}
 
 @media (max-width: 767px) {
 	body:not(.header-side) #header_top_bar {display: none;}
