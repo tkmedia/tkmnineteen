@@ -77,7 +77,6 @@ if ($tble_rows) {
 						<div class="shopping_cart_content">
 							<div id="mini-cart" class="mini-cart">
 								<div class="cart-head">
-									<i class="fal fa-shopping-bag" style="color:<?php echo $tblmc_co; ?>;font-size:<?php echo $tblmc_sz; ?>px;"></i>
 									<?php echo do_shortcode('[yith_ywraq_mini_widget_quote]'); ?>
 								</div>
 							</div>
