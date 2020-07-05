@@ -72,7 +72,7 @@ do_action( 'woocommerce_before_main_content' );
 						<<?php echo $pc_top_th; ?> class="product_cat_top_title"><?php echo $product_cat_top_title; ?></<?php echo $pc_top_th; ?>>
 						<?php } ?>
 						<?php if( $product_cat_top_subtitle ) { ?>
-						<<?php echo $pc_top_sth; ?> class="product_cat_top_subtitle"><?php echo $product_cat_top_subtitle; ?></<?php echo $pc_top_sth; ?>>
+						<div class="product_cat_top_subtitle"><?php echo $product_cat_top_subtitle; ?></div>
 						<?php } ?>
 					</div>
 					<?php } ?>
