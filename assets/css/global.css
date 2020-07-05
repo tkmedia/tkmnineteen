@@ -2825,9 +2825,10 @@ a.button.yith-wcqv-button:before {content: "\f06e";width: 100%;text-indent: 0;fo
 .default_page .header_float:not(.masthead_full_slider) #header-container {position: relative;}
 #category_product_container {padding: 40px 0;background: #f7f7f7;}
 #subcategory_container {padding-bottom: 40px;}
-.shop_cat_title_wrap.wrap, 
-.archive_products_top.wrap {padding-bottom: 20px;}
-.shop_cat_title, .product_cat_top_title {font-size: 25px;}
+.shop_cat_title_wrap, 
+.archive_products_top {padding-bottom: 20px;}
+.shop_cat_title, .product_cat_top_title {font-size: 30px;margin: 0;}
+.product_cat_top_subtitle {font-size: 23px;}
 .subcategory_title_wrap {padding: 10px 0;text-align: center;font-size: 25px;line-height: 1;}
 .woocommerce div.product .archive_product_item_title h2.woocommerce-loop-product__title {font-size: 20px;line-height: 1;margin-bottom: 5px;}
 .woocommerce div.product .archive_product_item_price span.woocommerce-Price-amount.amount, 
