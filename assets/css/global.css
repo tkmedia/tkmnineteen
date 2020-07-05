@@ -1027,8 +1027,8 @@ header.full_row_box {background: rgba(0, 0, 0, 0.75) !important;}
 .yith_ywraq_add_item_product_message, 
 .yith_ywraq_add_item_response_message {line-height: 1;}
 .yith_ywraq_add_item_browse_message {line-height: 1;text-decoration: underline;}
-.yith-ywraq-add-to-quote img, 
-.archive_product_item_cart img {width: auto !important;height: auto !important;}
+.yith-ywraq-add-to-quote {position: relative;}
+.yith-ywraq-add-to-quote img {width: auto !important;height: auto !important;position: absolute;left: 10px;top:10px;}
 .yith-ywraq-list-content p.items-count {text-align: center;padding-bottom: 15px;}
 .widget_ywraq_mini_list_quote .yith-ywraq-list-content ul li {border-bottom: 1px solid #ccc !important;padding: 2px 23px 10px 0px !important;margin-bottom: 10px;}
 ul.yith-ywraq-list a.yith-ywraq-item-remove.remove {right: 0;left: auto !important;font-size: 22px !important;}
