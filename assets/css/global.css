@@ -1028,7 +1028,7 @@ header.full_row_box {background: rgba(0, 0, 0, 0.75) !important;}
 .yith_ywraq_add_item_response_message {line-height: 1;}
 .yith_ywraq_add_item_browse_message {line-height: 1;text-decoration: underline;}
 .yith-ywraq-add-to-quote img, 
-.archive_product_item_cart img {width: auto;height: auto;}
+.archive_product_item_cart img {width: auto !important;height: auto !important;}
 
 @media (max-width: 767px) {
 	body:not(.header-side) #header_top_bar {display: none;}
