@@ -1035,6 +1035,10 @@ ul.yith-ywraq-list a.yith-ywraq-item-remove.remove {right: 0;left: auto !importa
 ul.yith-ywraq-list img {margin-left: 10px !important;}
 .yith-ywraq-list-content a.button {width: 100%;text-align: center;background: #000;color: #fff;}
 
+.woocommerce.single-product .product .yith-ywraq-add-to-quote {vertical-align: unset !important;margin: 0 4px 5px 0 !important;}
+.woocommerce .add-request-quote-button.button, 
+.woocommerce .add-request-quote-button-addons.button {padding: 0 3vw !important;height: 48px;line-height: 48px;}
+
 @media (max-width: 767px) {
 	body:not(.header-side) #header_top_bar {display: none;}
 }
