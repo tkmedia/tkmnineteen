@@ -733,7 +733,7 @@ Normal Menu - Mobile style's
 	.normal_menu ul.sub-menu.megamenu > li:last-child {border-left: none !important;}
 	.normal_menu .menu > ul > li > .megamenu-wrapper {position: absolute;z-index: 1;top: 100%;min-width: 100%;background: transparent;color: #fff;opacity: 0;transition: 0.33s linear opacity;min-width: 260px;width: 100%;padding: 0;right: -9999px;padding-top: 5px;}
 	.normal_menu .menu>ul>li>ul.custom_megamenu>li a {border-bottom:none;}
-	.normal_menu .header_menu .menu > ul > li > ul:not(.megamenu) > li a:focus  {background: #000;color: #fff;}
+	.normal_menu .header_menu .menu > ul > li > ul:not(.megamenu) > li a:focus  {color: #fff;}
 	.normal_menu .menu > ul > li > ul.megamenu {padding: 5px 0px;border: 1px solid #e1e1e1;}
 	.normal_menu .menu > ul > li > ul.megamenu > li > a {font-weight: 600;}
 	.normal_menu .menu > ul > li > ul > li.menu-item-has-children > a {border-bottom: 1px solid #e7e7e7;}
