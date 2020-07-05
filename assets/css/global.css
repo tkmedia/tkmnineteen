@@ -1020,7 +1020,7 @@ header.full_row_box {background: rgba(0, 0, 0, 0.75) !important;}
 
 .top_bar_left_row .widget_ywraq_mini_list_quote .yith-ywraq-list-wrapper {left: 0 !important;}
 .top_bar_right_row .widget_ywraq_mini_list_quote .yith-ywraq-list-wrapper {right: 0 !important;}
-.ywraq-quote-icon-icon_quote:before {font-family: 'Font Awesome 5 Pro';content: "\f290";}
+.ywraq-quote-icon-icon_quote:before {font-family: 'Font Awesome 5 Pro';content: "\f290" !important;}
 
 @media (max-width: 767px) {
 	body:not(.header-side) #header_top_bar {display: none;}
