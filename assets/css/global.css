@@ -1040,7 +1040,8 @@ ul.yith-ywraq-list img {margin-left: 10px !important;}
 
 .yith-ywraq-before-table {padding-bottom: 20px;}
 .yith-ywraq-before-table a.button, 
-#yith-ywraq-form input.button {padding: 0 3vw;line-height: 48px !important;overflow: hidden;margin: 0 !important;background-color: #222529;height: 48px !important;border-radius: 0;color: #fff;font-weight: 500;}
+#yith-ywraq-form input.button, 
+#yith-ywraq-default-form input.button {padding: 0 3vw;line-height: 48px !important;overflow: hidden;margin: 0 !important;background-color: #222529;height: 48px !important;border-radius: 0;color: #fff;font-weight: 500;}
 #yith-ywraq-form table.cart tbody tr td.product-thumbnail img, 
 #yith-ywraq-form table.cart tfoot tr td.product-thumbnail img, 
 #yith-ywraq-form table.shop_table tbody tr td.product-thumbnail img, 
@@ -1050,8 +1051,11 @@ ul.yith-ywraq-list img {margin-left: 10px !important;}
 #yith-ywraq-form {}
 
 .ywraq-form-table-wrapper .yith-ywraq-mail-form-wrapper {background: #f5f5f5;}
+.ywraq-form-table-wrapper form#yith-ywraq-form, 
+#yith-ywraq-default-form input.button {max-width: 200px;}
 
 @media (min-width: 768px) {
+	.ywraq-form-table-wrapper {display: flex;align-content: space-evenly;flex: 0 0 auto;align-items: baseline;}
 	.ywraq-form-table-wrapper form#yith-ywraq-form {flex-basis: 48%;}
 	.ywraq-form-table-wrapper .yith-ywraq-mail-form-wrapper {flex-basis: 48%;margin-left: 5%;}
 }
