@@ -1054,12 +1054,15 @@ ul.yith-ywraq-list img {margin-left: 10px !important;}
 .ywraq-form-table-wrapper form#yith-ywraq-form input.button, 
 #yith-ywraq-default-form input.button {max-width: 200px;}
 #yith-ywraq-form table.shop_table th {line-height: 1 !important;}
+#yith-ywraq-default-form p#message_field {clear: both;}
 @media (min-width: 768px) {
 	.ywraq-form-table-wrapper {display: flex;flex: 0 0 auto;}
 	.ywraq-form-table-wrapper form#yith-ywraq-form {flex-basis: 48%;}
 	.ywraq-form-table-wrapper .yith-ywraq-mail-form-wrapper {flex-basis: 48%;margin-right: 5%;}
-	#yith-ywraq-default-form p#first_name_field {width: 50%;float: right;clear: both;}
-	#yith-ywraq-default-form p#last_name_field {width: 50%;float: left;}
+	#yith-ywraq-default-form p#first_name_field, 
+	#yith-ywraq-default-form p#email_field {width: 50%;float: right;clear: both;}
+	#yith-ywraq-default-form p#last_name_field, 
+	#yith-ywraq-default-form p#phone_field {width: 50%;float: left;}
 }
 @media (max-width: 767px) {
 	body:not(.header-side) #header_top_bar {display: none;}
