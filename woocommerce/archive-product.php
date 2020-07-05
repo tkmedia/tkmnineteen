@@ -49,6 +49,32 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="wc_category_wrap<?php if ( is_shop() ) { ?> shop_page_content<?php } ?>">
 
+	<div id='category_product_container'>
+	<?php if ( is_shop() ) { ?>
+		<?php if( $shop_pro_title || $shop_pro_subtitle ) { ?>
+		<div class="archive_products_top wrap">
+			<?php if( $shop_pro_title ) { ?>
+			<div class="product_cat_top_title"><?php echo $shop_pro_title; ?></div>
+			<?php } ?>
+			<?php if( $shop_pro_subtitle ) { ?>
+			<div class="product_cat_top_subtitle"><?php echo $shop_pro_subtitle; ?></div>
+			<?php } ?>
+		</div>
+		<?php } ?>
+	<?php } elseif ( is_product_category() ) { ?>
+	
+		<?php if( $product_cat_top_title || $product_cat_top_subtitle ) { ?>
+		<div class="archive_products_top wrap">
+			<?php if( $product_cat_top_title ) { ?>
+			<<?php echo $pc_top_th; ?> class="product_cat_top_title"><?php echo $product_cat_top_title; ?></<?php echo $pc_top_th; ?>>
+			<?php } ?>
+			<?php if( $product_cat_top_subtitle ) { ?>
+			<<?php echo $pc_top_sth; ?> class="product_cat_top_subtitle"><?php echo $product_cat_top_subtitle; ?></<?php echo $pc_top_sth; ?>>
+			<?php } ?>
+		</div>
+		<?php } ?>
+	<?php } ?>
+
 	<div id="category_page_intro">
 		<div class="category_page_intro_inner wrap">
 			<div class="category_page_intro_row row-flex">
@@ -96,31 +122,6 @@ do_action( 'woocommerce_before_main_content' );
 		<?php	
 		woocommerce_product_loop_start(); ?>
 
-		<div id='category_product_container'>
-		<?php if ( is_shop() ) { ?>
-			<?php if( $shop_pro_title || $shop_pro_subtitle ) { ?>
-			<div class="archive_products_top wrap">
-				<?php if( $shop_pro_title ) { ?>
-				<div class="product_cat_top_title"><?php echo $shop_pro_title; ?></div>
-				<?php } ?>
-				<?php if( $shop_pro_subtitle ) { ?>
-				<div class="product_cat_top_subtitle"><?php echo $shop_pro_subtitle; ?></div>
-				<?php } ?>
-			</div>
-			<?php } ?>
-		<?php } elseif ( is_product_category() ) { ?>
-		
-			<?php if( $product_cat_top_title || $product_cat_top_subtitle ) { ?>
-			<div class="archive_products_top wrap">
-				<?php if( $product_cat_top_title ) { ?>
-				<<?php echo $pc_top_th; ?> class="product_cat_top_title"><?php echo $product_cat_top_title; ?></<?php echo $pc_top_th; ?>>
-				<?php } ?>
-				<?php if( $product_cat_top_subtitle ) { ?>
-				<<?php echo $pc_top_sth; ?> class="product_cat_top_subtitle"><?php echo $product_cat_top_subtitle; ?></<?php echo $pc_top_sth; ?>>
-				<?php } ?>
-			</div>
-			<?php } ?>
-		<?php } ?>
 		<?php
 		if ( wc_get_loop_prop( 'total' ) ) {
 			while ( have_posts() ) {
