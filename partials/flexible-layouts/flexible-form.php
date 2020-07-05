@@ -123,11 +123,11 @@ span.wpcf7-list-item-label {color:<?php echo $form_title_color; ?>;}
 						<div class="mh_contact_col_content">
 							<div class="mh_contact_phone_text">
 								<div class="form_side_title"><?php echo $form_side_title; ?></div>
-								<?php if( $form_sidetext ) { ?>
-								<div class="form_sidetext"><?php echo $form_sidetext; ?></div>
-								<?php } ?>
 								<?php if( $form_sidesub ) { ?>
 								<div class="form_sidesub"><?php echo $form_sidesub; ?></div>
+								<?php } ?>
+								<?php if( $form_sidetext ) { ?>
+								<div class="form_sidetext"><?php echo $form_sidetext; ?></div>
 								<?php } ?>
 							</div>
 							<div class="mh_contact_phone_icon"><?php echo $form_side_icon; ?></div>
