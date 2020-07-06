@@ -2203,7 +2203,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .masthead_img_slider .popup_btn button.section_readmore_link {}
 .masthead_img_slider .section_btn.popup_btn.section_readmore_link_wrap {text-align: right;}
 .masthead_img_slider .slides.single-slider {height: 100%;width: 100%;}
-.main_slider_content.content_center .masthead_img_slider .entry-title.masthead_content_title {text-align: center !important;}
+.main_slider_content.content_center .entry-title.masthead_content_title {text-align: center !important;}
 .masthead_img_slider .main_slider_content.content_center .section_btn.popup_btn.section_readmore_link_wrap {text-align: center !important;}
 
 #home_masthead.masthead_img_slider .main_slider_content_bg.slider_overlay .single-slider-img:after, #player:after {position: absolute;content: '';top: 0;height: 100%;width: 100%;right: 0;}
