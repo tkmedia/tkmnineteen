@@ -241,7 +241,7 @@ $sbs_fixed_bg = get_sub_field('sbs_fxbg');
 									</div>
 									<?php } ?>
 									<?php if( $sbsf_text ) { ?>
-									<div class="full_content_text" style="color:<?php echo $sbsf_textcolor;?>;"><?php echo $sbsf_text;?></div>
+									<div class="full_content_text flex_wysiwyg" style="color:<?php echo $sbsf_textcolor;?>;"><?php echo $sbsf_text;?></div>
 									<?php } ?>
 									<?php if( $sbsf_button ) { ?>
 									<div class="section_btn sbs_btn section_readmore_link_wrap btn_<?php echo $sbsf_btnside; ?>">
