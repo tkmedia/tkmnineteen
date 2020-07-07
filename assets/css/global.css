@@ -234,6 +234,7 @@ input[type=checkbox]:checked::before {position: absolute;font-size: 17px;left: 4
 .wpcf7 input, .wpcf7 select, .wpcf7 textarea {margin-bottom: 0;border-radius: 13px;}
 button.text.contact_field.button {width: 100%;}
 input.wpcf7-form-control.wpcf7-submit {background: #83b241;color: #fff;border-radius: 50px;}
+.flex_wysiwyg ol {list-style:decimal !important;}
 
 #page > main ul { list-style: disc;}
 #page > main ul, #page > main ol {margin: 1rem 0;padding-left: 20px;}
