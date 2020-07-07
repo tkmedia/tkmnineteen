@@ -5,7 +5,14 @@
 $footer_fixed_show = get_option( 'options_foo_fix' );
 $footer_form_id = get_field( 'foo_ffid','option' );
 $footer_bgcolor = get_option( 'options_foo_bgc' );
+$footer_txtcolor = get_option( 'options_foo_txc' );
+
+if( $footer_txtcolor ){
 ?>
+<style>
+	#footer_container {color: <?php echo $footer_txtcolor;?>;}
+</style>
+<?php } ?>
 
 <?php if( $footer_fixed_show ){ 
 $footer_search_show = get_option( 'options_foo_fse' );
@@ -13,6 +20,7 @@ $footer_link_show = get_option( 'options_foo_fpls' );
 $footer_popup_show = get_option( 'options_foo_fpos' );
 $footer_free_link_show = get_option( 'options_foo_flks' );
 ?>
+
 <div id="footer_mobile_fix" class="footer_mobile_fix">
 	<div class="footer_mobile_fix_row row-flex middle-xs center-xs">
 
