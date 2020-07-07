@@ -118,6 +118,28 @@ $sbs_fixed_bg = get_sub_field('sbs_fxbg');
 							        </div>    
 								</div>
 							</div>
+							<script>
+							jQuery(function($) {
+								if ($('#section-<?php echo $count;?> .media_content_slides .media_content_slider_item').length > 1) {
+									$("#section-<?php echo $count;?> .media_content_slides").slick({
+										rtl: true,
+										slidesToShow: 1,
+										slidesToScroll: 1,
+										pauseOnHover: true,
+										speed: 900,
+										autoplay: true,
+										autoplaySpeed: 4000,
+										arrows: false,
+										dots: true,
+										//cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+										draggable: true,
+										//fade: true,
+										infinite: true,
+										touchThreshold: 100
+									});
+								}
+							});
+							</script>
 							<?php break;
 
 							case 'sbsf_tbl':
