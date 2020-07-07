@@ -235,7 +235,7 @@ input[type=checkbox]:checked::before {position: absolute;font-size: 17px;left: 4
 button.text.contact_field.button {width: 100%;}
 input.wpcf7-form-control.wpcf7-submit {background: #83b241;color: #fff;border-radius: 50px;}
 .flex_wysiwyg ol {list-style:decimal !important;}
-
+.flex_wysiwyg ol li {padding: 0 5px 10px 5px !important;}
 #page > main ul { list-style: disc;}
 #page > main ul, #page > main ol {margin: 1rem 0;padding-left: 20px;}
 .rtl #page > main ul, .rtl #page > main ol {padding-left: 0px;padding-right: 20px;}
