@@ -2172,7 +2172,23 @@ acf_add_local_field_group(array(
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
-				'width' => '',
+				'width' => '50',
+				'class' => '',
+				'id' => '',
+			),
+			'acfe_permissions' => '',
+			'default_value' => '',
+		),
+		array(
+			'key' => 'field_5f043a74144b0',
+			'label' => 'Footer Default text color',
+			'name' => 'foo_txc',
+			'type' => 'color_picker',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '50',
 				'class' => '',
 				'id' => '',
 			),
@@ -5189,7 +5205,7 @@ acf_add_local_field_group(array(
 	'acfe_form' => 0,
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1591604594,
+	'modified' => 1594112977,
 ));
 
 endif;
